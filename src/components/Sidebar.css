@@ -5,7 +5,8 @@
   width: 20vw;
   display: flex;
   flex-direction: column;
-  box-shadow: 0.1px 0px 8px #0c58e6;
+  box-shadow: 1.2px 0px 5px #95b3f2;
+  background-color: white;
 }
 
 .logo {

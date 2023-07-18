@@ -8,4 +8,27 @@
 
 .App {
   display: flex;
+  flex-direction: row;
+  background-color: #e5ecfc;
+}
+
+.sidebar {
+  position: relative;
+  z-index: 1;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: relative;
+  z-index: 2;
+  z-index: 100;
+}
+
+.charts {
+  height: calc(100vh - 120px);
+  width: 80vw;
 }
