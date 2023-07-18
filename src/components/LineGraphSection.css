@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap");
+
+.lineGraphSection {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  color: #333333;
+}
+
+.heading {
+  height: 20%;
+}
+
+.heading > h6 {
+  font-size: 13px;
+}
+
+.lowerBox {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+.leftBox {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.bigNumber {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  height: 75%;
+  padding-top: 20px;
+}
+
+.lowerLowerBox {
+  display: flex;
+  flex-direction: row;
+  margin-top: auto;
+  font-size: 10px;
+}
+
+.leftNumber {
+  border-radius: 5px;
+  width: 40%;
+  height: 22px;
+  padding: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.rightNumber {
+  margin: auto 15px;
+}
+
+.graph {
+  position: relative;
+  width: 50%;
+}
+
+.upIcon {
+  border-radius: 4px;
+  font-size: 14px !important;
+}
