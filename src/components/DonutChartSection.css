@@ -62,3 +62,9 @@
 .circle5 {
   background-color: #ed1b24;
 }
+
+@media screen and (max-width: 1009px) {
+  .headinggg {
+    margin-bottom: 10px;
+  }
+}

@@ -73,3 +73,13 @@
   color: #018e42;
   margin-right: 5px;
 }
+
+@media screen and (max-width: 480px) {
+  .listContainer {
+    margin: 0 auto;
+  }
+
+  .subHeading {
+    margin: 0 auto;
+  }
+}

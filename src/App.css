@@ -33,8 +33,12 @@
   width: 80vw;
 }
 
-@media screen and (max-width: 1216px) {
+@media screen and (max-width: 1332px) {
   .charts {
     width: 100vw;
+  }
+
+  .charts {
+    height: fit-content;
   }
 }
