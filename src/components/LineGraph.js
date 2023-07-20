@@ -8,7 +8,7 @@ const LineGraph = ({ data, color }) => {
     const ctx = chartRef.current.getContext("2d");
     const gradient = ctx.createLinearGradient(0, 0, 0, 300);
     gradient.addColorStop(0, `${color}`); // Start color
-    gradient.addColorStop(0.47, "rgba(0, 0, 0, 0)"); // Mid color
+    gradient.addColorStop(0.25, "rgba(0, 0, 0, 0)"); // Mid color
     gradient.addColorStop(1, "rgba(0, 0, 0, 0)"); // End color
 
     const chart = new Chart(chartRef.current, {

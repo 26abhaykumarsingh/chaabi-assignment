@@ -2,8 +2,9 @@
   background-color: #e5ecfc;
   padding: 20px;
   display: grid;
-  grid-template-rows: 1fr 2.4fr 1.75fr;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: minmax(0, 1fr) minmax(0, 2.4fr) minmax(0, 1.75fr);
+  /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 20px;
 }
 

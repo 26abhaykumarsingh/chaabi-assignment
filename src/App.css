@@ -32,3 +32,9 @@
   height: calc(100vh - 120px);
   width: 80vw;
 }
+
+@media screen and (max-width: 1216px) {
+  .charts {
+    width: 100vw;
+  }
+}
