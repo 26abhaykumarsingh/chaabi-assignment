@@ -2,13 +2,13 @@ import React from "react";
 import "./DonutLowerChart.css";
 import DonutChart from "./DonutChart";
 
-function DonutLowerChart({ data }) {
+function DonutLowerChart({ data, cutout }) {
   return (
     <div className="donutLowerChart">
       <div className="headinggg">Quiz Passing%</div>
       <div className="down">
         <div className="chartt">
-          <DonutChart className="donutChart" data={data} />
+          <DonutChart className="donutChart" data={data} cutout={cutout} />
         </div>
         <div className="second">
           <div>

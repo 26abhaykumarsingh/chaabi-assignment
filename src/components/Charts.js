@@ -85,7 +85,7 @@ function Charts() {
         />
       </div>
       <div className="child five">
-        <DonutChartSection data={donutData} />
+        <DonutChartSection data={donutData} cutout={"47%"} />
       </div>
       <div className="child six">
         <BarGraphSection
@@ -100,7 +100,7 @@ function Charts() {
           <MonthlyTrainingSection />
         </div>
         <div className="sevenTwo">
-          <DonutLowerChart data={donut2Data} />
+          <DonutLowerChart data={donut2Data} cutout={"60%"} />
         </div>
         <div className="sevenThree">
           <BarGraphSection

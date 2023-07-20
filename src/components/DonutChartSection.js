@@ -2,12 +2,12 @@ import React from "react";
 import "./DonutChartSection.css";
 import DonutChart from "./DonutChart";
 
-function DonutChartSection({ data }) {
+function DonutChartSection({ data, cutout }) {
   return (
     <div className="donutChartSection">
       <div className="headinggg">Chapter Wise Status</div>
       <div className="chart">
-        <DonutChart className="donutChart" data={data} />
+        <DonutChart className="donutChart" data={data} cutout={cutout} />
       </div>
       <div className="third">
         <div>

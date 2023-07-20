@@ -22,6 +22,7 @@ h2 {
 .sidebarOption:hover {
   background-color: #b3c9fa;
   color: #004bd5;
+  cursor: no-drop;
 }
 
 .sidebarOption--active {
@@ -33,4 +34,5 @@ h2 {
 .sidebarOption--active:hover {
   background-color: #0c58e6;
   color: white;
+  cursor: auto;
 }

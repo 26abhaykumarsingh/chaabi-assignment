@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import { Chart as ChartJS } from "chart.js/auto";
 
-function DonutChart({ data }) {
+function DonutChart({ data, cutout }) {
   const chartRef = useRef(null);
 
   useEffect(() => {
@@ -36,7 +36,7 @@ function DonutChart({ data }) {
               position: "right",
             },
           },
-          cutout: "47%",
+          cutout: cutout,
         },
       });
     }
